@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+
+button{
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+    padding: 15px 32px;
+    border: 2px solid black;
+    backdrop-filter: blur(5px);
+}
+
+p{
+    display: inline;
+    font-style: italic;
+}

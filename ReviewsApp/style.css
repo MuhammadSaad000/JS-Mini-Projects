@@ -1,0 +1,37 @@
+.box{
+    border: 2px solid grey;
+    border-radius: 10px;
+    width: 450px;
+    height: fit-content;
+    padding: 30px;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+}
+
+.icons{
+    text-align: center;
+    margin: 0 auto;
+}
+
+main{
+    width: fit-content;
+    padding: 20px;
+    margin:0 auto;
+}
