@@ -5,3 +5,4 @@ This repositories contains projects such as :
 - Image Slider
 - JavaScript Counter App
 - Reviews App
+- Light and Dark Theme Switching
