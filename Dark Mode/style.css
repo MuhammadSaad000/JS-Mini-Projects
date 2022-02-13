@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+article{
+    width: 70%;
+    margin: 20px auto;
+}
+
+#dark{
+    display: block;
+    margin: 20px auto;
+    border: 2px solid black;
+    width: max-content;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#dark:hover{
+    color: white;
+    background-color: black;
+}
