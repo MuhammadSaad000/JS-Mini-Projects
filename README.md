@@ -6,3 +6,4 @@ This repositories contains projects such as :
 - JavaScript Counter App
 - Reviews App
 - Light and Dark Theme Switching
+- JS Form Validation
