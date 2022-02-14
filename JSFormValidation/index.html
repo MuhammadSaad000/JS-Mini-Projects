@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+    <h1 id="open-form"> Open PopUp Form </h1>
+    <form name="pop-form" id="popup-form" method="get">
+        <fieldset>
+            <legend>Personalia </legend>
+            <label for="fname">First Name : </label>
+            <input type="text" id="fname" name="fname"> <br><br>
+            <label for="lname">Last Name : </label>
+            <input type="text" id="lname" name="lname"> <br><br>
+
+            <p> Gender : </p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            
+            <label for="dob">Date of Birth : </label>
+            <input type="date" name="dob" id="dob"><br><br>
+            <label for="color"></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Others </legend>
+            <input type="checkbox" id="bike" value="bike">
+            <label for="bike">Bike</label> <br>
+            <input type="checkbox" id="car" value="car">
+            <label for="car">Car</label> <br>
+            <input type="checkbox" id="rickshaw" value="rickshaw">
+            <label for="rickshaw">Rickshaw</label> <br>
+
+            <h2>Select Fav Color </h2>
+            <input type="color" id="fav-color" >
+            <label for="fav-color">Select Favorite Color</label> 
+            
+            <input type="text" id="color-value" readonly>
+        </fieldset>
+
+        <input type="submit" id="submit-btn">
+        
+    </form>
+
+    <script src="logic.js" defer></script>
+</body>
+</html>
